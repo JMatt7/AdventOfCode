@@ -1,5 +1,6 @@
 package com.advent;
 
+import com.advent.Day7.Day7;
 import com.advent.day1.Day1;
 import com.advent.day2.Day2;
 import com.advent.day3.Day3;
@@ -20,9 +21,13 @@ public class Main {
 //        System.out.println("Result of first task for my input: " + day3.run(1));
 //        System.out.println("Result of second task for my input: " + day3.run(2));
 
-        Day6 day6 = new Day6("src\\com\\advent\\day6\\input.txt");
-        System.out.println("Result of first task for my input: " + day6.run(1));
-        System.out.println("Result of second task for my input: " + day6.run(2));
+//        Day6 day6 = new Day6("src\\com\\advent\\day6\\input.txt");
+//        System.out.println("Result of first task for my input: " + day6.run(1));
+//        System.out.println("Result of second task for my input: " + day6.run(2));
+
+        Day7 day7 = new Day7("src\\com\\advent\\day7\\input.txt");
+        System.out.println("Result of first task for my input: " + day7.run(1));
+        System.out.println("Result of second task for my input: " + day7.run(2));
 
     }
 }
